@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Eventos - ERP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ERP - Minha Empresa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Alunos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Professores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Salas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Financeiro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Atendimento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Biblioteca</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Laboratórios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Recursos Humanos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2>Cadastro de Eventos</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="titulo">Título do Evento:</label>
+                        <input type="text" class="form-control" id="titulo" name="titulo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="data">Data do Evento:</label>
+                        <input type="date" class="form-control" id="data" name="data" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="descricao">Descrição:</label>
+                        <textarea class="form-control" id="descricao" name="descricao" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Cadastrar Evento</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
